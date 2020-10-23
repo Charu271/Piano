@@ -1,0 +1,19 @@
+.black-div,
+.black-div1 {
+  border: 1px solid black;
+  position: absolute;
+  height: 150px;
+  background-color: rgb(15, 14, 14);
+  width: 3%;
+  z-index: 2;
+}
+.element-b {
+  position: absolute;
+  bottom: 2px;
+  right: 50%;
+  color: white;
+}
+.black-div1 {
+  height: 146px;
+  box-shadow: 0px 4px blue;
+}
