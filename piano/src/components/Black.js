@@ -35,7 +35,7 @@ function Black(props) {
       onMouseDown={handleClick}
       onMouseUp={handleup}
       className={props.black}
-      style={{ marginLeft: `${props.marginProp}vw` }}
+      style={{ marginLeft: `${props.marginProp}%` }}
     >
       <span className="element-b">{props.keyName}</span>
     </button>

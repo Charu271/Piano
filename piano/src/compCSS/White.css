@@ -1,12 +1,14 @@
 .white-div,
 .white-div1 {
-  border: 1px solid black;
+  border: 1px solid floralwhite;
   position: relative;
   height: 250px;
   width: 3%;
   margin: 0.5%;
   margin-top: 0px;
   background-color: floralwhite;
+  border-radius: 4px;
+  outline: none;
 }
 
 .white-div1 {

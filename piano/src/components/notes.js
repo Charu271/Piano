@@ -43,10 +43,6 @@ const notes = {
   A: "B5",
 };
 const player = (args) => {
-  if (notes.hasOwnProperty(args));
-  audioPlayer.playNote(notes[args]);
-  console.log(notes[args]);
-  audioPlayer.playNote("C4");
-  console.log(notes.hasOwnProperty(args));
+  if (notes.hasOwnProperty(args)) audioPlayer.playNote(notes[args]);
 };
 export { notes, player };
